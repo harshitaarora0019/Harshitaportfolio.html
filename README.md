@@ -167,19 +167,5 @@ Power BI, Excel
 📧 Email: harshitaarora00019@gmail.com  
 🔗 LinkedIn: linkedin.com/in/harshitaarora0019  
 💻 GitHub: github.com/harshitaarora0019  
-📱 Phone: +91 8929920754
 
----
 
-# 📸 Portfolio Preview
-
-Add screenshots of your portfolio here.
-
----
-
-# ⚡ How to Run the Project
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/portfolio-website.git
