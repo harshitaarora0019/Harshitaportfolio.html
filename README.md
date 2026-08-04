@@ -1,171 +1,57 @@
-# 🌐 Personal Portfolio Website
+# Harshita Arora Portfolio
 
-A responsive and modern **Portfolio Website** built using **HTML** and **CSS** to showcase my skills, projects, achievements, certifications, and experience in **Data Analytics, Data Science, and Machine Learning**.
+A modular personal portfolio website for Harshita Arora, redesigned with a minimal neobrutalist visual style and built from shared data, layout, and page modules.
 
----
+## Overview
 
-# 👩‍💻 About Me
+This site presents a clean, responsive portfolio focused on data analytics, Python development, Power BI, Streamlit, and AI/ML work. The content is driven from reusable data files and rendered through page-specific modules so the structure stays easy to maintain.
 
-Hello, I'm **Harshita Arora**  
-**Data Analyst · Data Science · ML Enthusiast**
+## Features
 
-B.Tech CSE student at **CGC University, Mohali** with hands-on experience building:
-- Real-time data pipelines
-- ML-powered dashboards
-- NLP-based classification systems
+- Minimal neobrutalist UI with flat colors and bold outlines
+- Responsive layout for desktop and mobile
+- GitHub avatar shown in the hero section
+- Mobile navigation drawer
+- Modular page architecture
+- Shared content source for profile, projects, experience, skills, and certifications
+- Google Fonts typography
 
-I enjoy transforming raw data into meaningful insights and discovering the story hidden in numbers.
+## Tech Stack
 
----
-
-# 🚀 Features
-
-- Responsive Portfolio Design
-- Modern User Interface
-- Skills & Tools Section
-- Projects Showcase
-- Internship Experience
-- Achievements & Certifications
-- Contact Information
-- Clean Navigation Layout
-
----
-
-# 🛠️ Technologies Used
-
-## Frontend
 - HTML5
 - CSS3
+- JavaScript ES modules
+- Google Fonts
 
-## Tools & Platforms
-- VS Code
-- Git & GitHub
-- Google Colab
-- Jupyter Notebook
+## Project Structure
 
----
+- `index.html`, `about.html`, `experience.html`, `projects.html`, `contact.html` - page entry files
+- `src/app.js` - app bootstrap and page routing
+- `src/data/` - shared profile, project, experience, and skill data
+- `src/components/layout/` - header and footer layout components
+- `src/components/sections/` - reusable hero, projects, timeline, skills, and contact sections
+- `src/pages/` - page-level renderers for each route
+- `styles/main.css` - global styling and responsive behavior
+- `src/animations.js` - lightweight interaction hooks and drawer behavior
 
-# 📂 Sections Included
+## Content Included
 
-- Home
-- About
-- Skills
-- Projects
-- Experience
-- Achievements & Certifications
-- Contact
+- Hero section with photo, summary, and quick facts
+- Highlights pulled from the resume and LinkedIn profile
+- GitHub projects selected from the public profile
+- Experience timeline
+- Education and certifications
+- Skills grouped by category
+- Contact links for email, GitHub, and LinkedIn
 
----
+## Local Run
 
-# 📊 Skills & Tools
+Open the project with a local server such as VS Code Live Server, or serve the folder with any static server.
 
-- Python
-- SQL
-- Java
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- NLP
-- TF-IDF
-- Logistic Regression
-- Naive Bayes
-- Streamlit
-- Power BI
-- Excel
-- MySQL
-- SQLite
-- Git & GitHub
+If you are using Live Server, open `index.html` in the browser and navigate through the pages normally.
 
----
+## Notes
 
-# 💼 Projects
-
-## 🌫️ Advanced Real-Time AQI Tracker
-Real-time AQI monitoring system integrating OpenWeatherMap & Open-Meteo APIs with pollutant tracking, forecasting, and health advisories.
-
-### Features
-- Live PM2.5, PM10, CO, NO₂ monitoring
-- 12-hour AQI forecasting
-- Multi-city support
-- AirBot chatbot for safety queries
-
-### Technologies
-Python, Streamlit, Scikit-learn, APIs
-
----
-
-## 📊 Retail Sales Analysis & Forecasting
-Data analysis project uncovering regional sales insights, profit drivers, and forecasting future trends.
-
-### Key Insights
-- Electronics contributed ~62% profit
-- Discounts above 20% reduced profits
-- Upward sales trend identified
-
-### Technologies
-Python, Pandas, Matplotlib, Excel
-
----
-
-## 📧 Email Spam Detection
-NLP-based spam classifier using TF-IDF and Multinomial Naive Bayes.
-
-### Performance
-- Accuracy: 96.6%
-- Spam Precision: 100%
-- Macro F1 Score: 0.92
-
-### Technologies
-Python, NLP, Scikit-learn
-
----
-
-## 🎓 Student Performance Analysis
-Interactive Power BI dashboard analyzing academic performance trends.
-
-### Features
-- Attendance vs Marks Analysis
-- Pass/Fail Distribution
-- Interactive Charts & Visualizations
-
-### Technologies
-Power BI, Excel
-
----
-
-# 💼 Experience
-
-## Data Science Intern — Oasis Infobyte
-**Duration:** 1 Month Internship
-
-### Responsibilities
-- Developed Email Spam Detection system
-- Applied TF-IDF Vectorization
-- Evaluated model using precision, recall, F1-score
-- Achieved 96.6% accuracy
-
----
-
-# 🏆 Achievements & Certifications
-
-- 🏆 Top 700 Globally — EricssonEdge
-- 🎤 Campus Mantri — GeeksforGeeks
-- 🥈 2nd Place — 30 Days Coding Hackathon
-- ⭐ Python 5 Star — HackerRank Gold
-- Deloitte Australia – Data Analytics Simulation
-- CompTIA Data+ Training
-- EricssonEdge Academia Badge
-- AWS Generative AI Foundations
-- Python Essentials – Cisco
-- Java Full Stack – Techlive Solutions
-
----
-
-# 📞 Contact Me
-
-📧 Email: harshitaarora00019@gmail.com  
-🔗 LinkedIn: linkedin.com/in/harshitaarora0019  
-💻 GitHub: github.com/harshitaarora0019  
-
-
+- The portfolio content is based on Harshita Arora’s resume, GitHub, and LinkedIn profile.
+- The design intentionally avoids gradients and uses a simple, professional palette.
+- The site is organized for easy future edits by updating data files instead of hardcoding content in markup.
